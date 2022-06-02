@@ -3,7 +3,7 @@ $(document).ready(function () {
 		//Open street  Map
 		var coord = [-8.176985419936777, 113.7020634659854]; // <--- coordinates here
 
-		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 16);
+		var map = L.map('map-canvas', { scrollWheelZoom:true}).setView(coord, 16);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 22,
